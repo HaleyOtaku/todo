@@ -1,0 +1,92 @@
+section.home div.text-center {
+    padding: 4em 2em
+}
+
+section.home img.graphic {
+    width: 75%
+    border-radius: 25px
+    border: 3px solid rgb(45, 174, 110)
+}
+
+section.home .home-graphic {
+    background-image: linear-gradient(to top, rgb(45, 174, 110), rgb(133, 195, 164))
+}
+
+article.comparison section h3 {
+    font-family: 'Train One', cursive
+    font-size: 2em
+}
+/* #endregion */
+
+/* #region Code to add with students */
+section.home .comparison {
+    background-color: rgb(50,50,50)
+    color: white
+    padding: 3em 0
+    text-align: center
+}
+
+section.home .comparison section {
+    border: 2px solid rgb(255, 255, 255)
+    border-radius: 25px
+    padding: 4em 1em
+    margin: 4em auto
+}
+section.home .comparison h2 {
+    font-size: 3em
+    margin-bottom: 1em
+}
+section.home .comparison section {
+    display: inline-block
+    vertical-align: top
+    margin: 15px
+}
+
+section.home .comparison section p {
+    height: 13em
+}
+section.home .comparison section img {
+    height: 7em
+    margin-bottom: 2em
+}
+/* #endregion */
+@media only screen and (max-width: 1220px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+/* #region Media query - code will be part of codebase students bring in for application. */
+    section.home {
+        text-align: center
+    }
+
+    section.home article.banner img {
+        width: 200%
+        margin-left: -50%
+    }
+    
+    .clear {
+        clear: both
+    }
+    /* #endregion */
+
+    /* #region Comparision code - Students will add this */
+        .comp-gallery{
+            width: 85%
+            margin: 0 auto
+            padding: 0
+        }
+        section.home .comparison .comp-gallery section {
+            margin: 10px auto
+            height: unset
+        }
+
+        section.home div.text-center{
+            padding: 1em
+        }
+
+        section.home img.graphic {
+            width: 100%
+        }
+    /* #endregion */
+}

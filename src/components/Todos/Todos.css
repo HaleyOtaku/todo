@@ -1,0 +1,6 @@
+div.singleTodo{
+  color: rgba(255, 255, 255, .85);
+  /* top right bottom left */
+  margin: 0 5px 2px 5px;
+}
+
